@@ -1,0 +1,245 @@
+ html {
+            overflow-x: hidden;
+        }
+		
+                       
+	.row {
+		float:right;
+	}
+
+        body {
+            transition: background 0.5s linear;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            color:black;
+        }
+
+        .bgcolor {
+            background-color: #fef7f1;
+        }
+
+        h1 {
+            font-family: 'Shadows Into Light Two', cursive;
+            text-align: center;
+        }
+        .navfont {
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        p {
+            font-family: 'Courier Prime', monospace;
+		
+        }
+
+        span {
+            font-family: 'Courier Prime', monospace;
+        }
+
+        h2 {
+            font-family: 'Courier Prime', monospace;
+        }
+
+        h3 {
+            font-family: 'Courier Prime', monospace;
+        }
+
+        h4 {
+            font-family: 'Courier Prime', monospace;
+        }
+
+        nav {
+            font-family: 'Courier Prime', monospace;
+            font-size: 25px !important;
+        }
+        @media only screen and (max-width: 670px){
+            nav{
+                font-size: 15px;
+            }
+        }
+
+        body.dark {
+            background-color: black;
+        }
+
+            body.dark h1 {
+                color: #fef7f1;
+            }
+
+            body.dark h2 {
+                color: #fef7f1;
+            }
+
+            body.dark h3 {
+                color: #fef7f1;
+            }
+
+            body.dark h4 {
+                color: #fef7f1;
+            }
+
+            body.dark span {
+                color: #fef7f1;
+            }
+
+            body.dark p {
+                color: #fef7f1;
+            }
+
+            body.dark hr {
+                color: #fef7f1;
+            }
+			
+			  body.dark a {
+                color: #fef7f1;
+            }
+		.introduction p{
+				margin-left:10px;
+			}
+
+        .label {
+            width: 50px;
+            height: 26px;
+            background-color: #111;
+            display: flex;
+            border-radius: 50px;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            padding: 5px;
+        }
+
+        .fa-moon {
+            color: #f1c40f;
+        }
+
+        .fa-sun {
+            color: #f39c12;
+        }
+
+        .ball {
+            width: 22px;
+            height: 22px;
+            background-color: white;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            border-radius: 50%;
+            transition: transform 0.2s linear;
+        }
+
+        .checkbox {
+            opacity: 0;
+            position: absolute;
+			
+			
+        }
+
+            .checkbox:checked + .label .ball{
+                transform: translateX(20px);
+            }
+
+        .navigation {
+            height: 80px;
+            font-size: 18px;
+        }
+
+        @media only screen and (max-width: 670px) {
+            .navigation {
+                height: initial;
+            }
+        }
+
+        .alokimage {
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 670px) {
+            .alokimage {
+                width: 100%;
+            }
+        }
+
+        .darkmode {
+            background-color: black;
+            color: white;
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+
+        .abovequalification {
+            padding-top: 20px;
+        }
+
+        hr.solid {
+            border-top: 2px solid;
+            color: #800000;
+            width: 50px;
+        }
+
+        .resume {
+            list-style: none;
+            margin-left: 30px;
+            padding-left: 50px;
+            border-left: 2px solid #40424a;
+        }
+
+        .orgname {
+            font-size: 25px;
+             color:gray;
+            margin-left:370px;
+            margin-bottom: 20px;
+            text-decoration:underline
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+
+        a:visited {
+            text-decoration: none;
+        }
+
+
+        a:hover {
+            text-decoration: underline;
+            color: green;
+        }
+
+
+        a:active {
+            text-decoration: none;
+			background:green;
+        }
+		
+		.footer1 h6{
+			margin-left:15px;
+			margin-top:10px;
+		}
+
+       .footer1 a{
+		  word-spacing:25px;
+		  margin-left:10px;
+		  font-family: 'Courier Prime', monospace;
+	   }
+		   
+		
+
+        @media only screen and (max-width: 670px) {
+            .footerpadding {
+                margin-top: 0px;
+            }
+        }
+
+        .navbg {
+            background-color: #fef7f1 !important;
+        }
+        .navpadding {
+           margin-left: 50%;
+        }
+        @media only screen and (max-width: 670px){
+            .navpadding{
+                margin-left:0px;
+            }
+        }
